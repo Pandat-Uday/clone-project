@@ -307,7 +307,9 @@ footer {
   padding: 5px;
   color: white;
 }
-
+.select:hover {
+  outline: 3px double white;
+}
 .select1 {
   background-color: #222f3d;
   color: white;

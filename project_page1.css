@@ -265,7 +265,6 @@ footer {
 }
 
 /* Panel-3 Started */
-
 .foot-panel3 {
   background-color: #222f3d;
   border-top: 0.5px solid white;
@@ -279,6 +278,7 @@ footer {
   height: 50px;
   width: 100px;
   background-size: cover;
+  margin-right: 50px;
 }
 
 .select {
@@ -286,7 +286,24 @@ footer {
   height: 33px;
   width: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  color: #dddddd;
+  border: 0.3px solid #dddddd;
+  border-radius: 4px;
+}
+
+.l-icon {
+  font-size: 15px;
+}
+
+.select {
+  background-color: transparent;
+  height: 33px;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
   padding: 5px;
   color: white;
 }
@@ -294,6 +311,8 @@ footer {
 .select1 {
   background-color: #222f3d;
   color: white;
+  border: none;
+  font-size: 1rem;
 }
 
 /* Panel-4 started */
